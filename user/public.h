@@ -1,0 +1,35 @@
+#ifndef _public_H
+#define _public_H
+#include "stm32f10x.h"
+#include "stm32f10x_exti.h"
+#include "misc.h"
+#include "stm32f10x_usart.h"
+#include "systick.h"
+#include "usart.h"
+#include "filter.h"
+#include "mpu6050.h"
+#include "init.h"
+#include "nrf24l01.h"
+#include "iic_oled.h"
+#include "mpu6050.h"
+#include "oled.h"
+#include "led.h"
+#include "key.h"
+#include "pwm.h"
+#include "encoder.h"
+#include "motor.h"
+#include "timer3.h"
+#include "exti.h"
+#include "control.h"
+#include "iic_oled.h"
+#include "ili9341.h"
+#include "Driver.h"
+#include "8X16font.h"
+#include "lcd_driver.h"
+#include "gui.h"
+#include "printf.h"
+#include "beep.h"
+void Public(void);
+extern u8 NRF_Received_Data[32];
+#endif
+
